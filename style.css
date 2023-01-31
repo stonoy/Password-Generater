@@ -5,15 +5,17 @@ body{
     padding: 0;
     font-family: 'Spinnaker', sans-serif;
     font-size: 0.9rem;
+    background: radial-gradient(whitesmoke,#333);
 }
 
 .container{
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0;
     width: 500px;
     background-color: #333;
     /* height: 100vh; */
    color: whitesmoke;
+    border-radius: 15px;
 }
 
 .heading{
@@ -52,6 +54,7 @@ body{
 .all{
     width: 40px;
     padding: 5px;
+    border-radius: 5px;
 }
 .one h3{
     border-bottom: 1px solid black;
@@ -86,18 +89,22 @@ body{
 .CL{
     width: 40px;
     padding: 2px 5px;
+    border-radius: 5px;
 }
 .SL{
     width: 40px;
     padding: 2px 5px;
+    border-radius: 5px;
 }
 .N{
     width: 40px;
     padding: 2px 5px;
+    border-radius: 5px;
 }
 .symbol{
     width: 40px;
     padding: 2px 5px;
+    border-radius: 5px;
 }
 .btn2{
     margin: 10px;
