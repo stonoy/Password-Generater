@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 0.9rem;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 500px;
+    background-color: #333;
+    /* height: 100vh; */
+   color: whitesmoke;
+}
+
+.heading{
+    padding: 20px 5px 10px;
+    
+}
+.first{
+    margin: 5px;
+    font-weight: bold;
+}
+.second{
+    margin: 5px;
+    color: rgb(43, 156, 43);
+    font-weight: bold;
+}
+.heading p{
+    margin: 5px 5px 10px;
+}
+
+.inputs{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+.all{
+    width: 40px;
+    padding: 5px;
+}
+.one h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.one p{
+    margin: 2px;
+    padding: 2px;
+   
+}
+.btn1{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(43, 156, 43);
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.two h3{
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+.two p{
+    margin: 2px;
+    padding: 2px;
+}
+.CL{
+    width: 40px;
+    padding: 2px 5px;
+}
+.SL{
+    width: 40px;
+    padding: 2px 5px;
+}
+.N{
+    width: 40px;
+    padding: 2px 5px;
+}
+.symbol{
+    width: 40px;
+    padding: 2px 5px;
+}
+.btn2{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(43, 156, 43);
+}
+.massage{
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+.result{
+    width: fit-content;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: brown;
+}
+.error{
+    color: rgb(226, 75, 75);
+    /* background-color: whitesmoke; */
+    margin: 10px 0;
+    padding: 5px;
+}
