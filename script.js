@@ -77,13 +77,13 @@ function getRandomOutput(list, number) {
 
 function suffle(string) {
     let list = string.split('')
-    console.log(list)
+//     console.log(list)
     let random = []
     let final = []
     let suffled = ''
     for (let i = 0; i < list.length; i++) {
         let RN = Math.floor(Math.random() * (list.length))
-        console.log(RN)
+//         console.log(RN)
         random.push(RN)
         if (random.length > 1) {
             let count = 0
@@ -97,20 +97,20 @@ function suffle(string) {
             }
             if (count == (random.length - 1)) {
                 final.push(RN)
-                console.log('ok')
+//                 console.log('ok')
             } else {
-                console.log('failed')
+//                 console.log('failed')
                 random.pop()
                 check(list, random, final)
             }
         }
     }
     final.unshift(random[0])
-    console.log(final)
+//     console.log(final)
     final.forEach(item => {
         suffled += list[item]
     })
-    console.log(suffled)
+//     console.log(suffled)
     return suffled
 }
 
@@ -131,9 +131,9 @@ function check(list1, list2, list3) {
         }
         if (count == (list2.length - 1)) {
             list3.push(number)
-            console.log('ok')
+//             console.log('ok')
         } else {
-            console.log('failed')
+//             console.log('failed')
             list2.pop()
             check(list1, list2, list3)
         }
